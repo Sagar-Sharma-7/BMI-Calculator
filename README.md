@@ -1,6 +1,6 @@
 ## BMI CALCULATOR
 ## Want to know your Body Mass Index, click on the link below
-### [BMI Calculator]()
+### [BMI Calculator](https://sagar-sharma-7.github.io/BMI-Calculator/)
 ### ```NOTE: Open the above link in Google Chrome...```
 <br>
 
