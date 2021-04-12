@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="Sagar Sharma">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./public/img/logo.png" type="image/png">
+    <link rel="stylesheet" href="./public/css/style.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <title></title>
+</head>
+<body>
+    
+    <div class="container">
+        <p id="mainHeading"></p>
+            <div class="resultBox box">
+                <p id="result"></p>
+                <p id="status"></p>
+            </div>
+
+            <div class="gender">
+                <div class="female box">
+                    <i class="fas fa-female"></i>
+                </div>
+                <div class="male box">
+                    <i class="fas fa-male"></i>
+                </div>
+            </div>
+
+            <div class="height box">
+                <p id="heightVal"></p>
+                <p id="cm"></p>
+                <input type="range" min="100" max="300" value="150" class="heightRange slider">
+            </div>
+
+            <div class="weight box">
+                <p id="weightVal"></p>
+                <p id="kg"></p>
+                <input type="range" min="25" max="200" class="weightRange slider" value="50">
+            </div>
+
+            <button id="calculate"></button>
+    </div>
+
+
+    <script src="./public/js/main.js"></script>
+</body>
+</html>
